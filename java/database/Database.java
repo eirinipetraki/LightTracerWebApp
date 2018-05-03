@@ -9,7 +9,7 @@ public class Database {
     protected static final String JDBC_DRIVER ="com.mysql.jdbc.Driver";
     protected static final String DATABASE_URL="jdbc:mysql://localhost/SensorDB";
     protected static final String USER="root";
-    protected static final String PASSWORD="pE12_a";
+    protected static final String PASSWORD="********";
     protected Connection connection = null;
     protected Statement statement = null;
     
