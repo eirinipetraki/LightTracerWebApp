@@ -1,0 +1,60 @@
+/* Grammh */
+input[type="range"] {
+	-webkit-appearance: none;
+	background-color: black;
+	height: 4px;
+}
+/* krouwok */
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	position:relative;
+	top: -1px;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb));
+}
+
+/* okkoshe4ko */
+input[type="range"]:hover ~ #rangevalue,input[type="range"]:active ~ #rangevalue {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	opacity: 1;
+	top: -65px;
+}
+
+/* Tool Tip */
+#rangevalue {
+	display: block;
+	color: black;
+	margin: 35px 0;
+	position:relative;
+	left: 65%;
+	padding: 6px 6x;
+	border: 1px solid black;
+
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,white), color-stop(100%,#white));
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 10px;
+	width: 100px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=2);
+	opacity: 2;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	top: -65px;
+}
+

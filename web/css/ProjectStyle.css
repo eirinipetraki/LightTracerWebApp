@@ -1,0 +1,214 @@
+body{
+    
+    background-color:#980000 ;
+}
+button{
+    height: 30px;
+    width: 100px;
+     border-radius:25px;
+    -moz-border-radius:25px;
+
+}
+  table{
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  td{
+    padding: 10px;
+    text-align: left;
+}
+h1{
+    color: maroon;
+    font-size: 200%;
+    font-family:'Brush Script MT',Phyllis,'Lucida Handwriting',cursive;
+}
+/***********************************************************************/
+#RegistrationMainDiv{
+   background-color:white;
+   border:1px black solid;
+   height:635px;
+   width:620px;
+   position:absolute;
+   top:0px;
+   margin-top:20px;
+   left:50%;
+   margin-left:-280px;
+   overflow:auto;
+   -moz-box-shadow: 10px 10px 5px black; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px black;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+/***********************************************************************/
+#LoginDiV{
+    background-color: white;
+    border:1px black solid;
+    height:400px;
+    width:560px;
+    position:absolute;
+    top:0px;
+    margin-top:50px;
+    left:50%;
+    margin-left:-280px;
+    overflow:auto;
+    -moz-box-shadow: 10px 10px 5px black; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px black;
+    border-radius:25px;
+    -moz-border-radius:25px;
+}
+/***********************************************************************/
+#TopViewDivComponent{
+    background-color:gainsboro;
+    border:1px black solid;
+    height:90px;
+    width:960px;
+    position:relative;
+    left:50%;
+    margin-left:-480px;
+    
+}
+button.CTRL_Logout{
+     height: 30px;
+     width: 100px;
+     border-radius:25px;
+    -moz-border-radius:25px;
+    background-color:#F8F8F8 ;
+}
+/***********************************************************************/
+#LeftDiVContainer{
+    background-color:white;
+    border:1px black solid;
+    height:85%;
+    min-height:500px;
+    width:185px;
+    position:absolute;
+    left:50%;
+    margin-left:-480px;
+    overflow:auto;
+}
+fieldset.UserFieldset{
+    top:10px;
+    margin-top: 15px;
+    height:24%;
+    min-height:150px;
+    width:145px;
+    align:center;
+     border-radius:25px;
+    -moz-border-radius:25px;
+}
+/***********************************************************************/
+#HomeDiVContainer{
+    background-color:white;border:1px black solid;height:85%;
+    min-height:500px;width:774px;position:absolute;left:50%;
+    margin-left:-295px;
+    overflow:auto;
+   
+}
+/***********************************************************************/
+#FormDiVContainer{
+    background-color:white;
+    border:1px black solid;
+    height:85%;min-height:500px;
+    width:774px;position:absolute;
+    left:50%;margin-left:-295px;
+    overflow:auto;
+}
+fieldset.FormFieldset{
+     width:620px;
+    position:absolute;
+    top:0px;
+    margin-top:30px;
+    left:50%;
+    margin-left:-310px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -moz-box-shadow: 10px 10px 5px #888888; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px #888888;
+}
+/*********************************************************************/
+#GalleryDivContener{
+    background-color:white;border:1px black solid;height:85%;
+    min-height:500px;width:774px;position:absolute;left:50%;
+    margin-left:-295px;
+    overflow:auto;
+    text-align: center;
+}
+fieldset.GalleryDayStatisticFieldset{
+    width:620px;
+    position:absolute;
+    top:0px;
+    margin-top:80px;
+    left:50%;
+    margin-left:-310px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -moz-box-shadow: 10px 10px 5px #888888; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px #888888;
+}
+fieldset.GalleryPeriodStatisticFieldset{
+    width:620px;
+    position:absolute;
+    top:0px;
+    margin-top:270px;
+    left:50%;
+    margin-left:-310px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -moz-box-shadow: 10px 10px 5px #888888; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px #888888;
+}
+fieldset.AdminNote{
+    width:110px;
+    background-color: #FFFF99;
+    position:absolute;
+    top:50px;
+    margin-top:100px;
+    left:50%;
+    margin-left:170px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -moz-box-shadow: 10px 10px 5px #888888; /* Firefox 3.6 and earlier */
+    box-shadow: 10px 10px 5px #888888;
+}
+fieldset.UserInfo{
+  
+   width: 270px;
+    
+   
+  
+    border-radius:25px;
+    -moz-border-radius:25px;
+    
+}
+#plottContainer{
+     background-color:white;border:0px ;height:85%;
+    min-height:450px;width:740px;position:absolute;left:50%;
+    margin-top: 50px;
+   margin-left:-375px;
+    overflow:auto;
+    text-align: center;
+}
+#TableContainer{
+     background-color:white;border:0px ;height:75%;
+    min-height:450px;width:740px;position:absolute;left:50%;
+    margin-top: 125px;
+   margin-left:-375px;
+    overflow:auto;
+    text-align: center;
+}
+#Filer1Container{
+     background-color:white;border:0px ;height:75%;
+    min-height:450px;width:400px;position:absolute;left:50%;
+    margin-top: 25px;
+   margin-left:-380px;
+    overflow:auto;
+    text-align: center;
+}
+#Filer2Container{
+     background-color:white;border:0px ;height:75%;
+    min-height:450px;width:350px;position:absolute;left:50%;
+    margin-top: 25px;
+   margin-left:10px;
+    overflow:auto;
+    text-align: center;
+}
